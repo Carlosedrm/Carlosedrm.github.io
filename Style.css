@@ -1,0 +1,176 @@
+body{
+    margin:0;
+    padding: 0;
+    color: black;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 900;
+    color: black;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: black;
+}
+
+.button-1{
+    background-color: #ffe5e5;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.button-1:hover{
+    color: blue;
+    transition: 0.5s;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main{
+    display: block;
+    background-color: aliceblue;
+}
+
+.container{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.centro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.titulo{
+    text-align:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid grey;
+}
+
+.texto{
+    line-height: 2.0;
+    font-size:20px;
+    text-align: center;
+    border-radius: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    
+}
+
+.imagens{
+    height:500px;
+    width: height;
+    margin: 2%;
+    justify-items: center;
+}
+
+.border{
+    border: 10px solid black;
+}
+
+.conct{
+    font-size: 20px; 
+    color:rgb(94, 23, 209); 
+    text-align: center;
+}
+
+section.module p{
+    margin-bottom: 40px;
+}
+
+section.module:last-child{
+    margin-bottom: 0;
+}
+
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+
+section.module h1{
+    text-align: center;
+}
+
+section.module text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section.module.content{
+    padding: 40px 0;
+    background-color: #ece7d5;
+}
+
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+}
+
+section.module.parallax::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    background: -moz-linear-gradient(to bottom,  rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    background: -webkit-linear-gradient(to bottom,  rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+}
+
+section.module.parallax-1{
+    background-image: url("https://www.elegantthemes.com/blog/wp-content/uploads/2018/04/Best-Code-and-Text-Editors.png");
+}
+
+section.module.parallax-2{
+    background-image: url("https://blog.scielo.org/wp-content/uploads/2022/02/markus-spiske-70Rir5vB96U-unsplash.jpg");
+}
+
+section.module.parallax-3{
+    background-image: url("https://media.istockphoto.com/photos/encryption-your-data-binary-code-and-digital-lock-hacker-attack-and-picture-id1346223165?b=1&k=20&m=1346223165&s=170667a&w=0&h=q6W4oLmto2l8of4xCGXI2aYdSBbLbgC5mZs1sFUWgj8=");
+}
+
+section.module.parallax-4{
+    background-image: url("https://blog.scielo.org/wp-content/uploads/2022/02/markus-spiske-70Rir5vB96U-unsplash.jpg");
+}
+
+section.module.parallax h1{
+    color: #FFF;
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+    text-transform: uppercase;
+
+}
